@@ -112,6 +112,7 @@
 <!DOCTYPE html>
 <html class=''>
 <head>
+    <title>SignIn</title>
 <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -205,7 +206,7 @@ form button:hover {
  
 <body>
  
-<form method="post" action="user_login/">
+<form  target=""   method="post" action="user_login/">
   <header>Login</header>
   <label>Username </label>
   <input type="text"   name="username" placeholder="Username" required="" />
@@ -215,8 +216,8 @@ form button:hover {
   <div class="help">Use upper and lowercase letters as well</div>
   <div style=text-align:right class="forgot-password"><a href="#">Forgot password?</a></div>
   <button type="submit">Login</button>
-  <div  style=text-align:center class="register">Not a member at?<a href="#">Register</a></div>
-  <div style=text-align:center class="vendor-login">Are you a vendor?<a href="#">Vendor Login</a></div>
+  <div  style=text-align:center class="register">Not a member at?<a href="SignUp.html">Register</a></div>
+  <div style=text-align:center class="vendor-login">Are you a vendor?<a href="vendor_login.html">Vendor Login</a></div>
 
  
 </form>
