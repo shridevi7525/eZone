@@ -1,223 +1,348 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign Up Form </title>
+    <title>Wedzone</title>
 
-    <!-- Font Icon -->
-    <!-- <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css"> -->
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-    <!-- Main css -->
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
-<!-- </head>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
 <body>
     
+<!-- header section starts  -->
 
-    <div class="main">
+<header>
+
+    <a href="#" class="logo">w-Zone</a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#service">services</a>
         
+        <a href="#team">team</a>
+        <a href="#clients">clients</a>
+        <a href="#blog">blog</a>
+        <a href="vendor_login.html">Become a vendor</a>
+        <a href="Signin.html">SignIn/SignUp </a>
+    </nav>
 
-        <!-- Sign up form -->
-        <!-- <section class="signup">
-            <div class="container">
-                <div class="signup-content">
-                    <div class="signup-form">
-                        <h2 class="form-title"><center>Sign Up</center></h2>
-                        <form method="POST" class="register-form" id="register-form">
-                            <right>
-                            <div class="form-group">
-                                
-                                <input type="text" name="name" id="name" placeholder="Your Name"/>
-                            </div>
-                            <div class="form-group">
-                                
-                                <input type="email" name="email" id="email" placeholder="Your Email"/>
-                            </div>
-                            <div class="form-group">
-                                
-                                <input type="password" name="pass" id="pass" placeholder="Password"/>
-                            </div>
-                            <div class="form-group">
-                                
-                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/><br>
-                            </div> --> -->
-                            <!-- <div class="form-group">
-                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
-                            </div> -->
-                            <!-- <div class="form-group form-button">
-                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
-                            </div>
-                            </right>
-                        </form>
-                    </div>
-                    <div class="signup-image">
-                        <figure><left><img src="logo.png" alt="sing up image"></left></figure>
-                        <a href="#" class="signup-image-link"><left>I am already member</left></a>
-                    </div>
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span>We are The Wedding Planners</span>
+        <h3>We make every moment special!</h3>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- <section class="step-container">
+
+    <div class="step">
+        <span>01</span>
+        <h3>engagement</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum porro iure esse laudantium aspernatur, veniam sunt provident eius cum ab.</p>
+        <a href="#" class="btn">learm more</a>
+    </div>
+
+    <div class="step">
+        <span>02</span>
+        <h3>save the date</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum porro iure esse laudantium aspernatur, veniam sunt provident eius cum ab.</p>
+        <a href="#" class="btn">learm more</a>
+    </div>
+
+    <div class="step">
+        <span>03</span>
+        <h3>wedding ceremony</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum porro iure esse laudantium aspernatur, veniam sunt provident eius cum ab.</p>
+        <a href="#" class="btn">learm more</a>
+    </div>
+
+</section> -->
+
+<!-- vendor section starts  -->
+
+<section class="service" id="service">
+
+    <div class="heading">
+        <h1>Our Services</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/img1.jpg" alt="">
+            <div class="info">
+                <h3>Make-up</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolores.</p>
+                <a href="#" class="btn">learm more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img2.jpg" alt="">
+            <div class="info">
+                <h3>Food</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolores.</p>
+                <a href="#" class="btn">learm more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img3.jpg" alt="">
+            <div class="info">
+                <h3>wedding cake</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolores.</p>
+                <a href="#" class="btn">learm more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img4.jpg" alt="">
+            <div class="info">
+                <h3>venu and hall</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolores.</p>
+                <a href="#" class="btn">learm more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img5.jpg" alt="">
+            <div class="info">
+                <h3>music and party</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolores.</p>
+                <a href="#" class="btn">learm more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img6.jpg" alt="">
+            <div class="info">
+                <h3>photographer</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolores.</p>
+                <a href="#" class="btn">learm more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- vendor section ends -->
+
+<!-- client section starts  -->
+
+<section class="clients" id="clients">
+
+    <div class="heading">
+        <h1>our previous clients</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+    <div class="row">
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/client-1.jpg" alt="">
+                <div class="info">
+                    <h3> Roy & Shaina</h3>
+                    <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo aut repudiandae nihil quidem perspiciatis natus placeat, inventore, vitae, quia totam ad dolores velit. Cumque, alias ullam. Nihil, aperiam hic! <i class="fas fa-quote-right"></i> </p>
                 </div>
             </div>
-        </section> -->
-
-        <!-- Sing in  Form -->
-        <!-- <section class="sign-in">
-            <div class="container">
-                <div class="signin-content">
-                    <div class="signin-image">
-                        <figure><img src="logo.png" alt="sing up image"></figure>
-                        <a href="#" class="signup-image-link">Create an account</a>
-                    </div>
-
-                    <div class="signin-form">
-                        <h2 class="form-title">Sign up</h2>
-                        <form method="POST" class="register-form" id="login-form">
-                            <div class="form-group">
-                                
-                                <input type="text" name="your_name" id="your_name" placeholder="Your Name"/>
-                            </div>
-                            <div class="form-group">
-                                
-                                <input type="password" name="your_pass" id="your_pass" placeholder="Password"/>
-                            </div>
-                            <!-- <div class="form-group">
-                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
-                                <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
-                            </div> -->
-                            <!-- <div class="form-group form-button">
-                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
-                            </div> --> -->
-                        <!-- </form> -->
-                        <!-- <div class="social-login">
-                            <span class="social-label">Or login with</span> -->
-                            <!-- <ul class="socials">
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
-                            </ul> -->
-                        <!-- </div> -->
-                    <!-- </div>
+            <div class="box">
+                <img src="images/client-2.jpg" alt="">
+                <div class="info">
+                    <h3>mark & alice</h3>
+                    <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo aut repudiandae nihil quidem perspiciatis natus placeat, inventore, vitae, quia totam ad dolores velit. Cumque, alias ullam. Nihil, aperiam hic! <i class="fas fa-quote-right"></i> </p>
                 </div>
             </div>
-        </section>
+        </div>
 
-    </div> -->
+        <img src="images/divider.png" class="divider" alt="">
 
-    <!-- JS -->
-    <!-- <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="js/main.js"></script> -->
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-</html> -->
-<!DOCTYPE html>
-<html class=''>
-<head>
-<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src='https://production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" /><link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" /><link rel="canonical" href="https://codepen.io/aperyon/pen/oxzpaE?depth=everything&order=popularity&page=23&q=translate&show_forks=false" />
- 
-<style class="cp-pen-styles">html, body {
-  border: 0;
-  padding: 0;
-  margin: 0;
-  height: 100%;
+        <div class="box-container">
+            <div class="box">
+                <div class="info">
+                    <h3>Raj & sindhu</h3>
+                    <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo aut repudiandae nihil quidem perspiciatis natus placeat, inventore, vitae, quia totam ad dolores velit. Cumque, alias ullam. Nihil, aperiam hic! <i class="fas fa-quote-right"></i> </p>
+                </div>
+                <img src="images/client-3.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="info">
+                    <h3> Kishan & poonam</h3>
+                    <p> <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo aut repudiandae nihil quidem perspiciatis natus placeat, inventore, vitae, quia totam ad dolores velit. Cumque, alias ullam. Nihil, aperiam hic! <i class="fas fa-quote-right"></i> </p>
+                </div>
+                <img src="images/client-4.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- client section ends -->
+
+<!-- team section starts  -->
+
+<section class="team" id="team">
+
+    <div class="heading">
+        <h1>our creative team</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/team-1.png" alt="">
+            <h3>Anjali</h3>
+            <span>wedding planner</span>
+            <p>Email-Anjalidevadiga7701@gmail.com</p>
+            <!-- <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div> -->
+        </div>
+        <div class="box">
+            <img src="images/team-1.png" alt="">
+            <h3>Shridevi</h3>
+            <span>wedding planner</span>
+            <p>Email-Shreepoojary7525@gmail.com</p>
+            <!-- <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div> -->
+        </div>
+        <div class="box">
+            <img src="images/team-1.png" alt="">
+            <h3>Ashwini</h3>
+            <span>wedding planner</span>
+            <p>Email- Ashwinirkharvi5571@gmail.com</p>
+            <!-- <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div> -->
+        </div>
+    </div>
+
+</section>
+
+<!-- team section ends -->
+
+<!-- contact section starts  -->
+
+<!-- <section class="contact" id="contact">
+
+    <div class="heading">
+        <h1>contact us</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="your name">
+            <input type="email" placeholder="your email">
+        </div>
+        <div class="inputBox">
+            <input type="number" placeholder="your number">
+            <input type="text" placeholder="your address">
+        </div>
+        <textarea placeholder="say something" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+</section> -->
+
+<!-- contact section ends -->
+
+<!-- blog section starts  -->
+
+<!-- <section class="blog" id="blog">
+
+    <div class="heading">
+        <h1>our latest blogs</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/blog-1.jpg" alt="">
+            <div class="info">
+                <h3> <span>01. </span> blog title goes here </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium odio a voluptate. Eaque vel ab dolorem, earum optio aliquam.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/blog-2.jpg" alt="">
+            <div class="info">
+                <h3> <span>02. </span> blog title goes here </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium odio a voluptate. Eaque vel ab dolorem, earum optio aliquam.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/blog-3.jpg" alt="">
+            <div class="info">
+                <h3> <span>03. </span> blog title goes here </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium odio a voluptate. Eaque vel ab dolorem, earum optio aliquam.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section> -->
+
+<!-- blog section ends-->
+
+<!-- footer section  -->
+
+
+
+
+
+<script> 
+
+let menu = document.querySelector('#menu-bar');
+let navbar = document.querySelector('.navbar');
+
+menu.addEventListener('click', () =>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('nav-toggle');
+});
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('nav-toggle');
 }
- 
-body {
-  background: tomato;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-}
- 
-form {
-  background: white;
-  width: 40%;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
-  font-family: lato;
-  position: relative;
-  color: #333;
-  border-radius: 10px;
-}
-form header {
-  background: #FF3838;
-  padding: 30px 20px;
-  color: white;
-  font-size: 1.2em;
-  font-weight: 600;
-  border-radius: 10px 10px 0 0;
-}
-form label {
-  margin-left: 20px;
-  display: inline-block;
-  margin-top: 30px;
-  margin-bottom: 5px;
-  position: relative;
-}
-form label span {
-  color: #FF3838;
-  font-size: 2em;
-  position: absolute;
-  left: 2.3em;
-  top: -10px;
-}
-form input {
-  display: block;
-  width: 78%;
-  margin-left: 20px;
-  padding: 5px 20px;
-  font-size: 1em;
-  border-radius: 3px;
-  outline: none;
-  border: 1px solid #ccc;
-}
-form .help {
-  margin-left: 20px;
-  font-size: 0.8em;
-  color: #777;
-}
-form button {
-  position: relative;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  font-family: inherit;
-  color: white;
-  background: #FF3838;
-  outline: none;
-  border: none;
-  padding: 5px 15px;
-  font-size: 1.3em;
-  font-weight: 400;
-  border-radius: 3px;
-  box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
-  cursor: pointer;
-  transition: all 0.15s ease-in-out;
-}
-form button:hover {
-  background: #ff5252;
-}
-</style>
-</head>
- 
-<body>
- 
-<form method="post" action="user_login/">
- 
- 
-  <header>Login</header>
-  <label>Username <span>*</span></label>
-  <input type="text"   name="username" placeholder="Username" required="" />
-  <div class="help">At least 5 character</div>
-  <label>Password <span>*</span></label>
-  <input type="password"  name="password" placeholder="Password" required="" />
-  <div class="help">Use upper and lowercase letters as well</div>
-  <button type="submit">Login</button>
- 
-</form>
- 
+
+</script>
+
+
 </body>
 </html>
